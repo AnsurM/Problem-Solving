@@ -1,0 +1,11 @@
+ba, contains ab and not in acc pair ? yes, accepted pair = ["ba"]
+ab, contains ba and not in acc pair ? rev in pair, accepted pair = ["ba"]
+bf, contains fb and not in acc pair ? fb not found, accepted pair = ["ba"]
+fa, contains af and not in acc pair ? af not found, accepted pair = ["ba"]
+ab, contains ba and not in acc pair ? rev in pair, accepted pair = ["ba"]
+
+remove all characters not found in pair, 
+f is not in pair,
+when removing f
+babab
+check if pair is not ba or ab, if true, return 0

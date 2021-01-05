@@ -15,4 +15,5 @@ function pangrams(s) {
   return "pangram";
 }
 
+// for testing purpose
 module.exports = pangrams;
