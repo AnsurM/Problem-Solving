@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev jest
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Administrator\.windows-build-tools\python27\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\WebStorm 2020.1.1\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:148:13)
+      at Object.request (https.js:314:10)
+      at Request.module.exports.Request.start (C:\Program Files (x86)\Yarn\lib\cli.js:141310:32)
+      at Request.module.exports.Request.end (C:\Program Files (x86)\Yarn\lib\cli.js:142069:10)
+      at end (C:\Program Files (x86)\Yarn\lib\cli.js:141123:14)
+      at Immediate._onImmediate (C:\Program Files (x86)\Yarn\lib\cli.js:141137:7)
+      at processImmediate (internal/timers.js:456:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
