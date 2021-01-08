@@ -51,4 +51,5 @@ function hourglassSum(arr) {
   return Math.max(...hourGlassSums);
 }
 
+// for testing purpose
 module.exports = hourglassSum;
